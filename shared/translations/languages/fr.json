@@ -256,8 +256,8 @@
     "Auction is an activity where users bid on the collateral in liquidated vaults to recover the vaults' outstanding loans. Liquidation occurs when a vault's collateralization ratio falls below its minimum requirement, upon which the vault collateral will be split into batches of $10,000 USD for auction.": "La vente aux enchères est une activité au cours de laquelle les utilisateurs placent des offres sur les garanties des Vaults liquidés afin de récupérer les prêts en cours des Vaults. La liquidation a lieu lorsque le ratio de garantie d'un Vault tombe en dessous de son exigence minimale. Les garanties du Vaults sont alors divisées en lots de 10 000 USD pour être vendues aux enchères.",
     "How is the minimum starting bid determined?": "Comment l'offre de départ minimale est-elle déterminée ?",
     "The minimum starting bid is 105% of the batch's outstanding loan value. The additional 5% is included to cover the liquidation penalty, which is incurred upon vault liquidation.": "L'offre de minimale départ est de 105% de la valeur du prêt en cours du lot. Les 5% supplémentaires sont inclus pour couvrir la pénalité de liquidation, qui est encourue lors de la liquidation du Vault.",
-    "How is the minimum next bid determined?": "Comment la prochaine offre minimale est-elle déterminée ?",
-    "The minimum next bid is 1% above the previous bid price.": "L'offre minimale suivante est supérieure de 1 % du prix de l'offre précédente."
+    "How is the minimum next bid determined?": "Comment l'enchère minimale est-elle déterminée ?",
+    "The minimum next bid is 1% above the previous bid price.": "Une surenchère doit être supérieure d'au moins 1 % à l'offre précédente."
   },
   "screens/NetworkSelectionScreen": {
     "NETWORK": "RÈSEAU",
@@ -704,11 +704,11 @@
     "Confirm Add Collateral": "Confirmez l'ajout de garantie",
     "Edit Collaterals": "Modifier les garanties",
     "Borrow Loan Token": "Emprunter un Token de prêt",
-    "Confirm Borrow Loan Token": "Confirmer Emprunter Token de prêt",
+    "Confirm Borrow Loan Token": "Confirmer l'emprunt de Tokens de prêts",
     "Edit Loan Scheme": "Éditer le schéma de prêt",
-    "Confirm Edit Loan Scheme": "Confirmer l'édition du schéma de prêts",
+    "Confirm Edit Loan Scheme": "Confirmer l'édition du schéma de prêt",
     "Borrow More": "Augmenter le prêt",
-    "Choose Loan Token to Borrow": "Choisissez le Token de prêt pour emprunter",
+    "Choose Loan Token to Borrow": "Choisissez le Token de prêt à emprunter",
     "Payback Loan": "Remboursement du prêt",
     "Close Vault": "Fermer le Vault"
   },
@@ -721,47 +721,47 @@
     "Auctions": "Enchères",
     "Loans": "Prêts",
     "Browse auctions": "Parcourir les enchères",
-    "Manage bids": "Gérer les enchères",
-    "Auctioned collaterals": "Garantie mise en vente",
+    "Manage bids": "Gérer mes enchères",
+    "Auctioned collaterals": "Garanties mises en vente",
     "Auction details": "Détails de l'enchère"
   },
   "components/LoanCard": {
-    "Active Price": "Prix actif",
-    "Next Price": "Prochain prix",
+    "Active Price": "Prix actuel",
+    "Next Price": "Prix suivant",
     "Interest": "Intérêt",
     "Price (USD)": "Prix (USD)"
   },
   "components/InfoTextLink": {
-    "Learn more about UTXO and Token": "En savoir plus sur UTXO et les Tokens",
+    "Learn more about UTXO and Token": "En savoir plus sur les UTXO et Tokens",
     "UTXO vs Token, what is the difference?": "UTXO vs Token, quelle est la différence ?",
     "Learn more about vaults": "En savoir plus sur les Vaults",
     "Learn more about vaults and loan schemes": "En savoir plus sur les Vaults et les systèmes de prêt",
-    "Learn more about auctions and bidding": "En savoir plus sur les ventes aux enchères et les offres d'achat",
-    "Learn about auctions": "En savoir plus sur les ventes aux enchères"
+    "Learn more about auctions and bidding": "En savoir plus sur les ventes aux enchères et les offres",
+    "Learn about auctions": "Tout savoir sur les ventes aux enchères"
   },
   "components/EmptyBidsScreen": {
     "No active bids": "Aucune offre active",
     "To get started, browse on auctions and place a bid": "Pour commencer, parcourez les enchères et faites une offre."
   },
   "components/EmptyAuctions": {
-    "No ongoing auctions": "Pas de ventes aux enchères en cours",
-    "Check again later for any ongoing auctions that you can participate": "Revenez plus tard pour voir si des ventes aux enchères sont en cours et si vous pouvez y participer."
+    "No ongoing auctions": "Pas de vente en cours",
+    "Check again later for any ongoing auctions that you can participate": "Revenez plus tard pour voir s'il y a de nouvelles mises en vente."
   },
   "screens/AuctionScreen": {
     "Auctions": "Enchères",
     "Place Bid": "Placer une enchère",
-    "Confirm Place Bid": "Confirmer Enchére"
+    "Confirm Place Bid": "Confirmer l'enchére"
   },
   "components/AuctionDetailScreen":{
     "Collaterals": "Garanties",
-    "Min. next bid": "Prochaine enchère min.",
+    "Min. next bid": "Surenchère min.",
     "VAULT DETAILS": "DÉTAILS DU VAULT",
     "Vault ID": "Vault ID",
     "Owner ID": "ID du propriétaire",
     "Liquidation height": "Hauteur de block de liquidation",
     "ADDITIONAL DETAILS": "DÉTAILS ADDITIONNELS",
     "Collateral value (USD)": "Valeur de la garantie (USD)",
-    "Auction start": "Début de l'enchère",
+    "Auction start": "Ouverture de l'enchère",
     "{{count}} COLLATERAL TOKENS": "{{count}} TOKENS DE GARANTIE",
     "Total auction value (USD):": "Valeur totale de l'enchère (USD):",
     "PLACE BID": "PLACER UNE ENCHÉRE",
@@ -772,39 +772,39 @@
     "Latest bid": "Dernière offre",
     "Token to win": "Token à gagner",
     "PLACE BID": "PLACER L'OFFRE",
-    "VIEW REWARDS": "VOIR LES RÉCOMPENSES",
+    "VIEW REWARDS": "VOIRES RÉCOMPENSES",
     "ACTIVE BID": "ENCHÈRE ACTIVE",
     "{{h}}h": "{{h}}h",
     "{{m}}m": "{{m}}min",
     "Total auction value (USD)": "Valeur totale de l'enchère (USD)",
-    "Min. next bid": "Prochaine enchère min.",
+    "Min. next bid": "Surenchère min.",
     "You are the highest bidder": "Vous êtes le plus offrant",
     "From your vault": "De votre Vault",
     "Waiting for first bid": "En attente de la première offre"
   },
   "components/BidCard": {
-    "BID HIGHER": "OFFRIR PLUS HAUT",
+    "BID HIGHER": "SURENCHÉRIR",
     "VIEW REWARDS": "VOIR LA RÉCOMPENSE",
     "Auction ID": "ID de l'enchère",
-    "Auction won": "Enchère gagnéen",
-    "Lost to another bid": "Lost to another bid",
+    "Auction won": "Enchère gagnée",
+    "Lost to another bid": "Enchère battue",
     "Lost": "Perdu",
     "Highest bid": "Offre la plus élevée",
     "Auction ended": "Enchère terminée"
   },
   "components/AuctionTimeProgress": {
     "Auction ends in": "L'enchère se termine dans",
-    "Auction time left": "Temps d'enchère restant",
+    "Auction time left": "Temps restant",
     "{{block}} blks": "{{block}} Blocs",
     "~{{time}} left": "~{{time}} restant",
-    "Auction time remaining": "Temps d'enchère restant"
+    "Auction time remaining": "Temps restant"
   },
   "components/VaultCard": {
     "Collaterals:": "Garanties:",
     "None": "Aucune",
     "Locked": "Verrouillé",
     "At risk": "Critique",
-    "Safe": "Sans danger",
+    "Safe": "Hors de danger",
     "Active loans": "Prêts actifs",
     "Total loans (USD)": "Total des prêts (USD)",
     "Total collateral (USD)": "Valeur totale de la garantie (USD)",
@@ -819,17 +819,17 @@
     "Price per token (USD)": "Prix par token (USD)",
     "EDIT COLLATERALS": "MODIFIER LES GARANTIES",
     "MANAGE LOANS": "GÉRER LES PRÊTS",
-    "ACTIVE": "AKTIF",
+    "ACTIVE": "ACTIF",
     "HEALTHY": "SAIN",
     "AT RISK": "CRITIQUE",
     "HALTED": "STOPPÉ",
     "IN LIQUIDATION": "EN LIQUIDATION"
     "EMPTY": "VIDE",
-    "READY": "PRÊT"
+    "READY": "PARÈ"
   },
   "components/EmptyVault": {
     "No vault created": "Aucun Vault créé",
-    "To get started, create a vault and add DFI and other tokens as collaterals": "Pour commencer, créez un Vault et ajoutez des DFI et d'autres Tokens comme garanties.",
+    "To get started, create a vault and add DFI and other tokens as collaterals": "Pour commencer, créez un Vault et ajoutez y des DFI et d'autres Tokens comme garanties.",
     "CREATE VAULT": "CRÉER UN VAULT"
   },
   "screens/CreateVaultScreen": {
@@ -841,12 +841,12 @@
     "APR": "TAEG",
     "CONTINUE": "SUIVANT",
     "Confirm your vault details in next screen": "Validez les détails de votre Vault à l'étape suivante",
-    "Loan scheme of your vault determines the required collateralization of your vault for loans.": "Le schéma de prêt de votre Vault détermine la garantie requise de votre Vault pour les prêts.",
+    "Loan scheme of your vault determines the required collateralization of your vault for loans.": "Le schéma de prêt de votre Vault détermine la garantie requise pour les prêts.",
     "Min. collateralization ratio": "Ratio de garantie min."
   },
   "screens/ConfirmCreateVaultScreen": {
     "You are creating vault": "Vous créez un Vault",
-    "ID will generate once vault has been created": "L'ID sera généré une fois que le Vault aura été créé",
+    "ID will generate once vault has been created": "L'ID sera générée une fois que le Vault aura été créé",
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "Transaction type": "Type de transaction",
     "Create vault": "Créer un Vault",
@@ -870,19 +870,19 @@
     "Annual vault interest rate based on the loan scheme selected.": "Taux d'intérêt annuel du Vault en fonction du schéma de prêt choisi.",
     "Minimum required collateralization ratio based on loan scheme selected. A vault will go into liquidation when the collateralization ratio goes below the minimum requirement.": "Ratio de garantie minimum requis en fonction du schéma de prêts sélectionné. Un Vault est mis en liquidation lorsque le ratio de garantie est inférieur au minimum requis.",
     "Collateralization ratio": "Ratio de garantie",
-    "Interest amount": "Montant d'intérêt",
-    "Next collateralization": "Prochain collatéral",
+    "Interest amount": "Montant des intérêts",
+    "Next collateralization": "Garantie suivante",
     "Min. collateralization ratio": "Ratio de garantie min.",
     "This amount is the total interest amount from both vault and token interest rate.": "Ce montant est le montant total des intérêts du Vault et du token.",
-    "Annual vault interest": "Intérêt annuel du Vault",
-    "Min. next bid": "Prochaine enchère min.",
-    "The minimum bid a user must place in order to take part in the auction.": "L'offre minimale qu'un utilisateur doit placer pour pouvoir participer à une enchère."
+    "Annual vault interest": "Intérêts annuels du Vault",
+    "Min. next bid": "Surenchère min.",
+    "The minimum bid a user must place in order to take part in the auction.": "Offre minimum qu'un utilisateur doit placer pour pouvoir participer à l'enchère."
   },
   "screens/VaultDetailScreen": {
     "Vault ID": "Vault ID",
     "Your vault is locked for liquidation.": "Votre Vault est verrouillé pour la liquidation.",
-    "Your vault is at risk of liquidation. Prevent liquidity by adding more collaterals or paying back loans.": "Votre Vault risque d'être liquidé. Prévenez la liquidation en ajoutant plus de garanties ou en remboursant les prêts.",
-    "Collaterals required to use this vault.": "Collatéraux requis pour utiliser ce Vault.",
+    "Your vault is at risk of liquidation. Prevent liquidity by adding more collaterals or paying back loans.": "Votre Vault risque d'être liquidé. Évitez la liquidation en ajoutant plus de garanties ou en remboursant les prêts.",
+    "Collaterals required to use this vault.": "Garantie requise pour utiliser ce Vault.",
     "Total collateral (USD)": "Total des garanties (USD)",
     "Total loans (USD)": "Total des prêts (USD)",
     "Vault interest (APR)": "Intérêt du Vault (TAEG)",
@@ -893,17 +893,17 @@
     "TAKE COLLATERAL": "RÉTIRER DES GARANTIES",
     "EDIT SCHEME": "ÉDITER LE SCHEMA",
     "EDIT COLLATERALS": "MODIFIER LES GARANTIES",
-    "EDIT LOAN SCHEME": "ÉDITER LE SCHÉMA DE PRÊTS",
+    "EDIT LOAN SCHEME": "ÉDITER LE SCHÉMA DE PRÊT",
     "CLOSE VAULT": "FERMEZ LE VAULT"
   },
   "components/EmptyActiveLoans": {
     "No active loans": "Aucun prêt actif",
-    "Browse for available loan tokens and start using this vault as collateral.": "Recherchez les tokens de prêt disponibles et commencez à utiliser ce Vault comme garantie.",
-    "BROWSE LOAN TOKENS": "PARCOURIR LES TOKENS DE PRÊTS"
+    "Browse for available loan tokens and start using this vault as collateral.": "Parcourez les tokens de prêt disponibles et commencez à utiliser ce Vault comme garantie.",
+    "BROWSE LOAN TOKENS": "PARCOURIR LES TOKENS DE PRÊT"
   },
   "components/VaultDetailsLoansTab": {
-    "Outstanding balance": "Solde non remboursé",
-    "Interest amount": "Montant de l'intérêt",
+    "Outstanding balance": "Solde à rembourser",
+    "Interest amount": "Montant des intérêts",
     "PAYBACK LOAN": "REMBOURSEMENT DU PRÊT",
     "BORROW MORE": "EMPRUNTER PLUS"
   },
@@ -915,19 +915,19 @@
     "Get started by adding your tokens here in your wallet": "Commencez par ajouter vos Tokens ici dans votre portefeuille."
   },
   "components/VaultDetailDetailsTab": {
-    "LOAN SCHEME": "SCHÉMA DE PRÊTS",
+    "LOAN SCHEME": "SCHÉMA DE PRÊT",
     "Min. collateralization ratio": "Ratio de garantie min.",
     "Vault interest": "Intérêt du Vault",
     "VAULT DETAILS": "DÉTAILS DU VAULT",
-    "COLLATERALIZATION DETAILS": "DETAILS DE LA GARANTIE",
+    "COLLATERALIZATION DETAILS": "DETAILS DES GARANTIES",
     "Collateralization ratio": "Ratio de garantie",
-    "Next collateralization": "Prochain collatéral",
+    "Next collateralization": "Garantie suivante",
     "Total collateral (USD)": "Total des garanties (USD)",
     "Active loans": "Prêts actifs",
     "Total loans (USD)": "Total des prêts (USD)"
   },
   "components/VaultDetailsCollateralsTab": {
-    "Collateral amount": "Montant de la garantie"
+    "Collateral amount": "Montant des garanties"
   },
   "screens/EditCollateralScreen": {
     "COLLATERALS WILL BE ADDED TO VAULT": "LES GARANTIES SERONT AJOUTÉES AU VAULT",
@@ -938,7 +938,7 @@
     "Learn more": "En savoir plus",
     "ADD TOKEN AS COLLATERAL": "AJOUTER LE TOKEN COMME GARANTIE",
     "Total collateral (USD)": "Total des garanties (USD)",
-    "Vault needs DFI to be in 50% vault share": "Le Vault a besoin que les DFI soitent dans le partage du Vault à 50%.",
+    "Vault needs DFI to be in 50% vault share": "Le Vault a besoin d'une part des garanties en DFI d'au moins 50%.",
     "Confirm details in next screen": "Validez les détails à l'étape suivante",
     "Select token to add": "Sélectionner le Token à ajouter",
     "Are you sure you want to remove collateral token?": "Êtes-vous sûr de vouloir retirer des tokens de garantie ?",
