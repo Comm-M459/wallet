@@ -949,9 +949,9 @@
     "VAULT DETAILS": "DÉTAILS DU VAULT",
     "COLLATERALS": "GARANTIES",
     "Adding collateral": "Ajouter des Garanties",
-    "Adding {{amount}} {{symbol}} as collateral": "Ajout d'un {{montant}} {{symbole}} comme garantie",
+    "Adding {{amount}} {{symbol}} as collateral": "Ajout de {{montant}} {{symbole}} comme garantie",
     "Removing collateral": "Retrait de la garantie",
-    "Removing {{amount}} {{symbol}} collateral from vault": "Suppression de {{amount}} {{symbol}} garantie du Vault.",
+    "Removing {{amount}} {{symbol}} collateral from vault": "Retrait de {{amount}} {{symbol}} de la garantie du Vault.",
     "Total loans (USD)": "Total des prêts (USD)",
     "Collateralization ratio": "Ratio de garantie",
     "Min. collateralization ratio": "Ratio de garantie min.",
@@ -963,10 +963,10 @@
     "Enter an amount": "Donnez un montant",
     "Available": "Disponible",
     "ADD TOKEN AS COLLATERAL": "AJOUTER LE TOKEN EN GARANTIE",
-    "REMOVE COLLATERAL AMOUNT": "RETIRER LE MONTANT DE LA GARANTIE",
+    "REMOVE COLLATERAL AMOUNT": "RÉDUIRE LA GARANTIE",
     "How much {{symbol}} to remove?": "Combien de {symbol}} à retirer ?",
     "Current": "Actuel",
-    "The collateral factor determines the degree of contribution of each collateral token.": "Le facteur de garantie détermine le degré de contribution de chaque Token de garantie."
+    "The collateral factor determines the degree of contribution of each collateral token.": "Le facteur de garantie détermine le degré de contribution de chaque Token à la garantie."
   },
   "screens/ConfirmEditCollateralScreen": {
     "You are adding collateral to": "Vous ajoutez des garanties à",
@@ -985,9 +985,9 @@
     "ADDING": "AJOUT...",
     "You are removing collateral from": "Vous retirez la garantie de",
     "Convert & add collateral": "Convertir et ajouter des garanties",
-    "Convert & remove collateral": "Convertir et retirer les garanties",
+    "Convert & remove collateral": "Convertir et retirer des garanties",
     "Add Collateral": "Ajouter des garanties",
-    "Remove Collateral": "Retirer les garanties"
+    "Remove Collateral": "Retirer des garanties"
   },
   "screens/PaybackLoanScreen": {
     "YOU ARE PAYING FOR LOAN": "VOUS REMBOURSEZ LE PRÊT",
@@ -1000,16 +1000,16 @@
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "Amount to pay": "Montant à payer",
     "Remaining loan amount": "Montant du prêt restant",
-    "Outstanding balance": "Solde en souffrance",
+    "Outstanding balance": "Solde restant à payer",
     "Collateralization ratio": "Ratio de garantie",
     "Min. collateralization ratio": "Ratio de garantie min."
     "Excess amount": "Montant excédentaire",
     "Any excess amount will be returned to your wallet.": "Tout montant excédentaire sera reversé dans votre portefeuille.",
-    "Resulting collateralization":"Garantie qui en résulte"
+    "Resulting collateralization":"Garantie correspondante"
   },
   "screens/ConfirmPaybackLoanScreen": {
     "CONFIRM PAYMENT": "CONFIRMER LE PAIEMENT",
-    "PAYING": "PAYER",
+    "PAYING": "PAIEMENT",
     "You are paying": "Vous payez",
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "Transaction type": "Type de transaction",
@@ -1023,7 +1023,7 @@
     "Paying loan": "Rembourser le prêt",
     "Paying {{amount}} {{symbol}}": "Payer {{amount}} {{symbol}}",
     "Confirm Loan Payment": "Confirmer le remboursement du prêt"
-    "Resulting collateralization": "La garantie résultante"
+    "Resulting collateralization": "Garantie correspondante"
   },
   "components/CollateralizationRatioDisplay": {
     "Collateralization ratio": "Ratio de garantie",
@@ -1038,12 +1038,12 @@
     "Price (USD)": "Prix (USD)",
     "Interest": "Intérêt",
     "Total collateral (USD)": "Valeur totale de la garantie (USD)",
-    "Vault interest": "Intérêt du Vaults",
+    "Vault interest": "Intérêt du Vault",
     "How much do you want to borrow?": "Combien voulez-vous emprunter ?",
     "Enter an amount": "Donnez un montant",
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "Collateralization ratio": "Ratio de garantie",
-    "Resulting collateralization": "Ratio de garantie résultante",
+    "Resulting collateralization": "Ratio de garantie correspondant",
     "Min. collateralization ratio": "Ratio de garantie min.",
     "Interest (Vault + Token)": "Intérêt (Vault + Token)",
     "Estimated annual interest": "Intérêt annuel estimé",
@@ -1057,7 +1057,7 @@
     "Unable to proceed because of errors": "Impossible de poursuivre en raison d'erreurs",
     "Max loan amount": "Montant max. du prêt"
     "USD": "USD",
-    "How many {{token}} tokens to borrow?": "Combien de {{token}} souhaitez-vous emprunter ??"
+    "How many {{token}} tokens to borrow?": "Combien de {{token}} souhaitez-vous emprunter ?"
   },
   "screens/ConfirmBorrowLoanTokenScreen": {
     "You are borrowing": "Vous empruntez",
@@ -1065,7 +1065,7 @@
     "Transaction type": "Type de transaction",
     "Borrow loan token": "Emprunter un Token de prêt",
     "Convert & borrow loan token": "Convertir et emprunter un token de prêt",
-    "Loan tokens to borrow": "Tokens de prêt pour emprunter",
+    "Loan tokens to borrow": "Tokens de prêt à emprunter",
     "Token interest": "Intérêt du Token",
     "Vault interest": "Intérêt du Vault",
     "Estimated annual interest": "Intérêt annuel estimé",
@@ -1075,18 +1075,18 @@
     "Collateral amount (USD)": "Montant de la garantie (USD)",
     "Collateralization ratio": "Ratio de garantie",
     "TRANSACTION RESULTS": "RÉSULTATS DE LA TRANSACTION",
-    "Resulting collateralization": "La garantie résultante",
+    "Resulting collateralization": "Garantie correspondante",
     "Borrowing loan token": "Emprunt de token de prêt",
     "Borrowing {{amount}} {{symbol}}": "Emprunt de {{amount}} {{symbol}}",
     "CONFIRM BORROW": "CONFIRMER EMPRUNTER",
-    "BORROWING": "EMPRUNTER..."
+    "BORROWING": "EMPRUNT..."
   },
   "components/BottomSheetVaultList": {
     "Collateralization ratio": "Ratio de garantie"
   },
   "screens/EditLoanSchemeScreen": {
     "EDIT LOAN SCHEME OF VAULT": "MODIFIER LE SCHÉMA DE PRÊTS DU VAULT",
-    "Make sure your collateralization ratio is still above your min. collateralization ratio": "Assurez-vous que votre ratio de garantie est toujours supérieur à votre ratio de garantie minimum.",
+    "Make sure your collateralization ratio is still above your min. collateralization ratio": "Assurez-vous que votre ratio de garantie reste toujours supérieur au ratio de garantie minimum.",
     "CONTINUE": "SUIVANT",
     "Confirm your vault details in next screen": "Validez les détails de votre Vault à l'étape suivante"
   },
@@ -1094,13 +1094,13 @@
     "You are editing scheme of vault": "Vous modifiez le schéma du Vault",
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "Transaction type": "Type de transaction",
-    "Edit loan scheme": "Éditer le schéma de prêt",
+    "Edit loan scheme": "Modifier le schéma de prêt",
     "Prev. minimum collateralization ratio": "Ratio de garantie min. précédent",
     "Prev. vault interest (APR)": "Intérêt du Vault (TAEG) précédent",
     "New minimum collateralization ratio": "Nouveau ratio de garantie min.",
-    "New vault interest (APR)": "Nouveau intérêt du Vault (TAEG)",
-    "CONFIRM EDIT": "CONFIRMER L'ÉDITION",
-    "EDITING": "ÉDITION",
+    "New vault interest (APR)": "Nouvel intérêt du Vault (TAEG)",
+    "CONFIRM EDIT": "CONFIRMER MODIFICATION",
+    "EDITING": "MODIFICATION",
     "CONVERTING": "CONVERSION...",
     "Updating vault to min. collateralization ratio of {{mincolRatio}}% and interest rate of {{ir}}%": "Mise à jour du Vault avec un ratio de garantie minimum de {{mincolRatio}}% et un taux d'intérêt de {{ir}}%."
   },
@@ -1129,34 +1129,34 @@
     "Add DFI and tokens as collateral to get started with loans.": "Ajoutez des DFI et des Tokens comme garantie pour commencer les prêts."
   },
   "screens/CloseVaultScreen": {
-    "You are closing Vault ID": "Vous fermez Vault ID",
+    "You are closing Vault ID": "Vous fermez le Nr de Vault",
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "Fees to return": "Frais de retour",
     "Fees to burn": "Frais à brûler",
-    "Upon closing, this Vault ID will not be usable anymore. Make sure you don’t need anything from this vault before closing.": "À la fermeture, ce Vault ID ne sera plus utilisable. Assurez-vous que vous n'avez besoin de rien de ce Vault avant de le fermer.",
+    "Upon closing, this Vault ID will not be usable anymore. Make sure you don’t need anything from this vault before closing.": "Après fermeture, ce Nr de Vault ne sera plus utilisable. Assurez-vous de ne plus avoir besoin de ce Vault avant de le fermer.",
     "CONFIRM CLOSE VAULT": "CONFIRMER LA FERMETURE DU VAULT",
     "You are about to close vault {{vaultId}}": "Vous êtes sur le point de fermer le Vault {{vaultId}}",
     "CLOSING": "FERMETURE..."
   },
   "components/TokenIconGroup": {
-    "more": "d'autres"
+    "more": "voir plus"
   },
   "screens/PlaceBidScreen": {
     "Enter an amount": "Donnez un montant",
     "MIN. BID": "ENCHÈRE MIN.",
-    "Bid amount is lower than required": "Montant de l'enchère trop faible",
+    "Bid amount is lower than required": "Montant d'enchère trop faible",
     "Available": "Disponible",
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "CONTINUE": "SUIVANT",
     "Review and confirm transaction in the next screen": "Vérifiez et validez la transaction à l'étape suivante",
     "Total auction value (USD)": "Valeur totale mise en vente (USD)",
     "(Full details)": "(Détails complets)",
-    "Min. next bid": "Prochaine enchère min.",
+    "Min. next bid": "Surenchère min.",
     "Insufficient funds": "Fonds insuffisants",
     "Collaterals": "Garantie",
     "How much do you want to bid?": "Combien voulez-vous proposer?",
     "The value of the tokens you are placing is considerably higher than the total auction value.": "Le montant des tokens de votre enchère est bien suppérieur à la valeur mise en vente.
-    "Collateral for auction": "Garanties à offrir",
+    "Collateral for auction": "Garantie en vente",
   },
   "screens/ConfirmPlaceBidScreen": {
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
@@ -1176,11 +1176,11 @@
   },
   "components/QuickBid": {
     "QUICK BID": "ENCHÈRE RAPIDE",
-    "Insufficient amount to place a bid": "Montant insuffisant pour placer une enchèr",
+    "Insufficient amount to place a bid": "Montant insuffisant pour placer une enchère",
     "Quick bid": "Enchère rapide",
-    "Place a bid on the auctions with the min. next bid": "Placer une enchère augmentée du plus petit montant possible",
-    "Min. next bid": "Prochaine enchère min.",
-    "Current balance": "Solde actuelle"
+    "Place a bid on the auctions with the min. next bid": "Surenchérir avec le plus petit montant possible",
+    "Min. next bid": "Surenchère min.",
+    "Current balance": "Solde actuel"
   },
   "components/WalletAddressRow": {
     "Wallet address": "Adresse du portefeuille"
