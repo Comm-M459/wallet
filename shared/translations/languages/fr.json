@@ -1155,7 +1155,7 @@
     "Insufficient funds": "Fonds insuffisants",
     "Collaterals": "Garantie",
     "How much do you want to bid?": "Combien voulez-vous proposer?",
-    "The value of the tokens you are placing is considerably higher than the total auction value.": "Le montant des tokens de votre enchère est bien suppérieur à la valeur mise en vente.
+    "The value of the tokens you are placing is considerably higher than the total auction value.": "Le montant des tokens de votre enchère est bien suppérieur à la valeur mise en vente."
     "Collateral for auction": "Garantie en vente",
   },
   "screens/ConfirmPlaceBidScreen": {
