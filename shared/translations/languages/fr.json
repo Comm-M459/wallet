@@ -973,6 +973,8 @@
     "How much {{symbol}} to remove?": "Combien de {symbol}} à retirer ?",
     "Current": "Actuel",
     "The collateral factor determines the degree of contribution of each collateral token.": "Le facteur de garantie détermine le degré de contribution de chaque Token à la garantie."
+    "Resulting collateralization":"Garantie correspondante",
+    "N/A": "S/O"
   },
   "screens/ConfirmEditCollateralScreen": {
     "You are adding collateral to": "Vous ajoutez des garanties à",
