@@ -539,7 +539,13 @@
     "CONTINUE": "SUIVANT"
   },
   "screens/SlippageTolerance": {
-    "SLIPPAGE TOLERANCE": "TOLÉRANCE DE SLIPPAGE"
+    "Slippage tolerance": "Tolérance de Slippage",
+    "Slippages are rate changes that occur within an order transaction. Choose how much of this slippage are you willing to accept.": "Slippage sind Kursänderungen, die innerhalb eines Auftragsvorgangs auftreten. Wähle aus, wie viel von diesen Abweichungen du akzeptieren möchtest.",
+    "Custom": "Anpassen",
+    "USE THIS SLIPPAGE TOLERANCE": "SLIPPAGE-TOLERANZ VERWENDEN",
+    "Required field is missing": "Erforderliches Feld fehlt",
+    "Slippage rate must range from 0-100%": "Die Slippage-Toleranz muss zwischen 0 und 100 % liegen.",
+    "Proceed at your own risk": "Handeln auf eigenes Risiko"
   },
   "screens/PoolSwapScreen": {
     "Swap": "Swap",
