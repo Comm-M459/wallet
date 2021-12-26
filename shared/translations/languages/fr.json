@@ -582,12 +582,12 @@
     "Enter an amount": "Donnez un montant",
     "{{token}} tokens converted": "{{token}} tokens convertis",
     "Select token": "Sélectionner le token",
-    "Amount to be converted": "Montant à convertir",
-    "Slippage Tolerance": "Tolérance de Slippage",
-    "TRANSACTION DETAILS": "détails de la transaction",
+    "UTXO to be converted": "UTXO à convertir",
+    "Slippage tolerance": "Tolérance de slippage",
+    "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "PRICE DETAILS": "DÉTAILS DU PRIX",
-    "FROM": "VON",
-    "TO": "À"
+    "FROM": "DES",
+    "TO": "CONTRE DES"
     "Total to be swapped": "Total à échanger"
   },
   "screens/ConfirmCompositeSwapScreen": {
@@ -601,7 +601,7 @@
     "Swap": "Swap",
     "Swapping Token": "Échange du token",
     "Swapping {{amountA}} {{symbolA}} to {{amountB}} {{symbolB}}": "Echanger {{amountA}} {{symbolA}} contre {{amountB}} {{symbolB}}",
-    "Slippage Tolerance": "Tolérance de Slippage",
+    "Slippage tolerance": "Tolérance de slippage",
     "Estimated to receive": "Estimé à recevoir"
   },
   "screens/PoolSwapConfirmScreen": {
