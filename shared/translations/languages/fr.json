@@ -540,7 +540,7 @@
   },
   "screens/SlippageTolerance": {
     "Slippage tolerance": "Tolérance de Slippage",
-    "Slippages are rate changes that occur within an order transaction. Choose how much of this slippage are you willing to accept.": "Les slippages sont des changements de taux qui se produisent dans une transaction d'ordre. Choisissez le pourcentage de ce slippage que vous êtes prêt à accepter.",
+    "Slippages are rate changes that occur within an order transaction. Choose how much of this slippage are you willing to accept.": "Par slippage, on entend des changements de taux qui se produisent dans une transaction d'ordre. Choisissez le pourcentage de ce slippage que vous êtes prêt à accepter.",
     "Custom": "Personnaliser",
     "USE THIS SLIPPAGE TOLERANCE": "METTRE CETTE TOLÉRANCE DE SLIPPAGE.",
     "Required field is missing": "Le champ requis est manquant",
