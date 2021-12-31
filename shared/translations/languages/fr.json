@@ -540,10 +540,10 @@
   },
   "screens/SlippageTolerance": {
     "Slippage tolerance": "Tolérance de Slippage",
-    "Slippages are rate changes that occur within an order transaction. Choose how much of this slippage are you willing to accept.": "Par slippage, on entend des changements de taux qui se produisent dans une transaction d'ordre. Choisissez le pourcentage de ce slippage que vous êtes prêt à accepter.",
+    "Slippages are rate changes that occur within an order transaction. Choose how much of this slippage are you willing to accept.": "Le slippage est une différence de cours qui se produit lors d'une transaction sur un DEX. Choisissez le pourcentage de slippage que vous êtes prêt à accepter.",
     "Custom": "Personnaliser",
-    "USE THIS SLIPPAGE TOLERANCE": "METTRE CETTE TOLÉRANCE DE SLIPPAGE.",
-    "Required field is missing": "Le champ requis est manquant",
+    "USE THIS SLIPPAGE TOLERANCE": "CHOISIR CETTE TOLÉRANCE DE SLIPPAGE.",
+    "Required field is missing": "Champ requis manquant",
     "Slippage rate must range from 0-100%": "Le taux de slippage doit être compris entre 0 et 100 %.",
     "Proceed at your own risk": "Procédez à vos propres risques"
   },
