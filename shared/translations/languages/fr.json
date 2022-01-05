@@ -770,7 +770,7 @@
     "Auction start": "Ouverture de l'enchère",
     "{{count}} COLLATERAL TOKENS": "{{count}} TOKENS DE GARANTIE",
     "Total auction value (USD):": "Valeur totale de l'enchère (USD):",
-    "PLACE BID": "PLACER UNE ENCHÉRE",
+    "PLACE BID": "PLACER L'OFFRE",
     "Batch #{{index}}": "Lot #{{index}}",
     "Min. starting bid": "Offre de départ min."
   },
