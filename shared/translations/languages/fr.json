@@ -14,6 +14,7 @@
     "You are about to generate a new set of recovery words. Continue?": "Vous allez génèrez un nouveau jeu de mots de récupération. Continuer ?",
     "Passcode FAQ": "FAQ Code de passe"
     "DEX FAQ": "FAQ DEX"
+    "Liquidity Mining FAQ":"FAQ Liquidity Mining"
   },
   "screens/DexScreen": {
     "Decentralized Exchange": "Échange décentralisé",
@@ -218,8 +219,9 @@
     "Recovery words": "Mots de récupération",
     "Passcode": "Code de passe",
     "UTXO vs Token": "UTXO vs Token",
-    "Loans": "Prêts"
-    "Auctions": "Enchères"
+    "Loans": "Prêts",
+    "Auctions": "Enchères",
+    "Liquidity Mining":"Liquidity Mining" 
   },
   "components/LoansFaq": {
     "Loans FAQ": "FAQ - Prêts",
@@ -673,8 +675,23 @@
     "Each transaction will be subject to a small amount of fees. The amount may vary depending on the network's congestion.": "Chaque transaction sera soumise à un petit montant de frais. Ce montant peut varier en fonction de l'encombrement du réseau.",
     "What is slippage tolerance?": "Qu'est-ce que la tolérance de slippage ?",
     "Due to the dynamic nature of the blockchain, prices on the DEX change every block. \n\nThis results in **slippage**, which is the difference between the final transaction price and the price displayed on the app before transaction confirmation. \n\nThe slippage tolerance feature allows you to indicate the maximum slippage you are willing to accept in a transaction. \n\nIf the slippage for your transaction is higher than your slippage tolerance, the transaction will not be completed and the original amount will be returned to your wallet.": "En raison de la nature dynamique de la blockchain, les prix sur le DEX changent à chaque bloc.  \n\nIl en résulte un **slippage**, qui est la différence entre le prix final de la transaction et le prix affiché sur l'application avant la confirmation de la transaction.  \n\nLa fonction de tolérance au slippage vous permet d'indiquer le slippage maximum que vous êtes prêt à accepter dans une transaction.  \n\nSi le slippage de votre transaction est supérieur à votre tolérance de slippage, la transaction ne sera pas effectuée et le montant initial sera reversé dans votre portefeuille.",
-    "FREQUENTLY ASKED QUESTIONS": "HÄUFIG GESTELLTE FRAGEN"
-  },  },
+    "FREQUENTLY ASKED QUESTIONS": "QUESTIONS FRÉQUENTES"
+  },
+  "components/LiquidityMiningFaq" : {
+    "Liquidity Mining":"Liquidity Mining",
+    "Liquidity mining is a DeFi mechanism in which participants supply cryptocurrencies into liquidity pools, and in turn be rewarded with fees and tokens based on their share of the total pool liquidity. \n\nLiquidity pools in DeFiChain consist of liquidity in pairs of coins, used by the DeFiChain DEX (Decentralized Exchange).":"Le liquidity mining est un mécanisme DeFi dans lequel les participants contribuent en crypto-monnaies aux pools de liquidité, et sont à leur tour récompensés par des frais et des tokens basés sur leur part de la liquidité totale du pool. \n\nLes pools de liquidité de DeFiChain sont constitués de liquidité par paire de tokens, qui est utilisée par le DEX (Decentralized Exchange) de la DeFiChain.",
+    "How do I supply liquidity?":"Comment puis-je fournir des liquidités ?",
+    "After deciding which pool pair you would like to supply liquidity to, click ADD LIQUIDITY and enter the input amount for either of the tokens in the pair. \n\nOnce an amount is entered on one side of the pair, the app automatically balances the amount of the other side, based on the ratio of current liquidity in the pool.":"Après avoir décidé de la paire de pools à laquelle vous souhaitez fournir des liquidités, cliquez sur AJOUTER LIQUIDITÉ et saisissez le montant d'entrée pour l'un ou l'autre des tokens de la paire.  \n\nUne fois le montant saisi d'un côté de la paire, l'application équilibre automatiquement le montant de l'autre côté, sur la base du ratio de liquidité actuel du pool.",
+    "How do I send tokens from my DFI wallet?":"Comment puis-je envoyer des tokens à partir de mon portefeuille DFI ?",
+    "Tokens on DeFiChain can only be sent to DFI addresses only. This means that you should not send directly to an exchange or a third party platform that does not support DeFiChain. \n\nSimilarly, liquidity tokens can only be sent to another DFI wallet address.": "Les tokens sur la DeFiChain ne peuvent être envoyés qu'à des adresses DFI uniquement. Cela signifie que vous ne devez pas envoyer directement à un échange ou à une plateforme tierce qui ne supporte pas la DeFiChain. \n\nDe même, les tokens de liquidité ne peuvent être envoyés qu'à une autre adresse de portefeuille DFI.",
+    "What are some exchanges and platforms I can send to?":"Quels sont les échanges et les plates-formes vers lesquels je peux envoyer les tokens de la DeFiChain ?",
+    "1. Kucoin\n2. Bittrex\n3. Transak\n4. Cake DeFi \n\nView more on [DeFiChain.com](https://defichain.com/dfi/)":"1. Kucoin\n2. Bittrex\n3. Transak\n4. Cake DeFi \n\nVoir plus sur [DeFiChain.com](https://defichain.com/dfi/)",
+    "Can I send liquidity pool tokens to an exchange or another entity?":"Puis-je envoyer les tokens du pool de liquidité à une bourse ou à une autre entité ?",
+    "Liquidity tokens can only be sent to another DFI wallet address, and not to an exchange of central entity.":"Les tokens de liquidité ne peuvent être envoyés que vers une autre adresse de portefeuille DFI, et non vers un échange ou une entité centrale.",
+    "How do I receive tokens on my DFI wallet?":"Comment puis-je recevoir des tokens sur mon portefeuille DFI ?",
+    "You can receive DFI tokens into your wallet by sharing your address found in the Receive page, or by getting the sender to scan the QR code. \n\nNote that you will not be able to receive native tokens (e.g. BTC, ETH) directly into your wallet.":"Vous pouvez recevoir des tokens DFI dans votre portefeuille en partageant votre adresse trouvée dans l'écran **Recevoir**, ou en demandant à l'expéditeur de scanner le code QR. \n\nNotez que vous ne serez pas en mesure de recevoir des tokens natifs (par exemple BTC, ETH) directement dans votre portefeuille.",
+    "FREQUENTLY ASKED QUESTIONS": "QUESTIONS FRÉQUENTES"
+  },
   "components/PasscodeFaq": {
     "Passcode": "Code de passe",
     "Your six-digit numeric code passcode, set by you, would be use to authorize all transactions. Keep your passcode private and secure. You are responsible for your own security.": "Votre code numérique à six chiffres, que vous avez défini, sera utilisé pour autoriser toutes les transactions. Gardez ce code de passe privé et sécurisé. Vous êtes responsable de votre propre sécurité.",
