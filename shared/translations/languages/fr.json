@@ -670,7 +670,7 @@
   },
   "components/DexFaq" : {
     "Decentralized Exchange": "Échange décentralisé",
-    "The decentralized exchange function will allow users of DeFiChain to swap cryptocurrencies in a peer-to-peer fashion. The decentralized exchange function matches people for trading directly, without the need to buy and sell currency through an exchange.": "La fonction d'échanges décentralisés permettra aux utilisateurs de DeFiChain d'échanger des crypto-monnaies de pair-à-pair (peer-to-peer).Cette fonction permet de mettre en relation directe des personnes lors d’un échange, sans avoir besoin d'acheter et de vendre des monnaies par l'intermédiaire d'une bourse (via carnet d’ordres).",
+    "The decentralized exchange function will allow users of DeFiChain to swap cryptocurrencies in a peer-to-peer fashion. The decentralized exchange function matches people for trading directly, without the need to buy and sell currency through an exchange.": "La fonction d'échanges décentralisés permettra aux utilisateurs de la DeFiChain d'échanger des crypto-monnaies de pair-à-pair (peer-to-peer). Cette fonction permet de mettre en relation directe des personnes lors d’un échange, sans avoir besoin d'acheter et de vendre des monnaies par l'intermédiaire d'une bourse (via carnet d’ordres).",
     "Transaction fees": "Frais de transaction",
     "Each transaction will be subject to a small amount of fees. The amount may vary depending on the network's congestion.": "Des frais d’un faible montant seront appliqués à chaque transaction. Ce montant peut varier en fonction de l'encombrement du réseau.",
     "What is slippage tolerance?": "Qu'est-ce que la tolérance de slippage ?",
