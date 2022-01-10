@@ -13,6 +13,7 @@
     "Refresh recovery words": "Rafraîchir les mots de récupération",
     "You are about to generate a new set of recovery words. Continue?": "Vous allez génèrez un nouveau jeu de mots de récupération. Continuer ?",
     "Passcode FAQ": "FAQ Code de passe"
+    "DEX FAQ": "FAQ DEX"
   },
   "screens/DexScreen": {
     "Decentralized Exchange": "Échange décentralisé",
@@ -665,6 +666,15 @@
     "Your unique 24 recovery words is a human-readable representation of your wallet private key, generated from a list of 2048 words in the BIP-39 standard. It prevents any attempts on brute-hacking your wallet’s security.": "Vos 24 mots de récupération uniques sont une représentation lisible par l'homme de la clé privée de votre portefeuille, générée à partir d'une liste de 2048 mots de la norme BIP-39. Cela empêche toute tentative de piratage par force brute de la sécurité de votre portefeuille.",
     "FREQUENTLY ASKED QUESTIONS": "QUESTIONS FRÉQUENTES"
   },
+  "components/DexFaq" : {
+    "Decentralized Exchange": "Échange décentralisé",
+    "The decentralized exchange function will allow users of DeFiChain to swap cryptocurrencies in a peer-to-peer fashion. The decentralized exchange function matches people for trading directly, without the need to buy and sell currency through an exchange.": "La fonction d'échange décentralisée permettra aux utilisateurs de la DeFiChain d'échanger des crypto-monnaies en mode pair-à-pair. La fonction d'échange décentralisée met en relation des personnes pour des échanges directs, sans qu'il soit nécessaire d'acheter et de vendre p.ex. des devises par l'intermédiaire d'une bourse.",
+    "Transaction fees": "Frais de transaction",
+    "Each transaction will be subject to a small amount of fees. The amount may vary depending on the network's congestion.": "Chaque transaction sera soumise à un petit montant de frais. Ce montant peut varier en fonction de l'encombrement du réseau.",
+    "What is slippage tolerance?": "Qu'est-ce que la tolérance de slippage ?",
+    "Due to the dynamic nature of the blockchain, prices on the DEX change every block. \n\nThis results in **slippage**, which is the difference between the final transaction price and the price displayed on the app before transaction confirmation. \n\nThe slippage tolerance feature allows you to indicate the maximum slippage you are willing to accept in a transaction. \n\nIf the slippage for your transaction is higher than your slippage tolerance, the transaction will not be completed and the original amount will be returned to your wallet.": "En raison de la nature dynamique de la blockchain, les prix sur le DEX changent à chaque bloc.  \n\nIl en résulte un **slippage**, qui est la différence entre le prix final de la transaction et le prix affiché sur l'application avant la confirmation de la transaction.  \n\nLa fonction de tolérance au slippage vous permet d'indiquer le slippage maximum que vous êtes prêt à accepter dans une transaction.  \n\nSi le slippage de votre transaction est supérieur à votre tolérance de slippage, la transaction ne sera pas effectuée et le montant initial sera reversé dans votre portefeuille.",
+    "FREQUENTLY ASKED QUESTIONS": "HÄUFIG GESTELLTE FRAGEN"
+  },  },
   "components/PasscodeFaq": {
     "Passcode": "Code de passe",
     "Your six-digit numeric code passcode, set by you, would be use to authorize all transactions. Keep your passcode private and secure. You are responsible for your own security.": "Votre code numérique à six chiffres, que vous avez défini, sera utilisé pour autoriser toutes les transactions. Gardez ce code de passe privé et sécurisé. Vous êtes responsable de votre propre sécurité.",
