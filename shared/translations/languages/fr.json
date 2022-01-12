@@ -62,7 +62,7 @@
     "Show balances": "Montrer les soldes",
     "Hide balances": "Cacher les soldes",
     "You do not have any other tokens.": "Vous n'avez pas d'autres tokens." 
-    "SWITCH": "ÈCHANGER"
+    "SWITCH": "ÉCHANGER"
   },
   "screens/AddressControlScreen": {
     "CREATE WALLET ADDRESS": "CRÉER UNE ADRESSE DE PORTEFEUILLE",
@@ -292,7 +292,7 @@
     "Convert to {{symbol}}": "Convertir en {{symbol}}",
     "Add to liquidity pool": "Ajouter au pool de liquidité",
     "Remove liquidity": "Retirer la liquidité",
-    "Swap with {{token}}": "Echanger avec {{token}}"
+    "Swap with {{token}}": "Échanger avec {{token}}"
   },
   "screens/TokensVsUtxoScreen": {
     "Learn about UTXOs and Tokens": "En savoir plus sur les UTXO et les Tokens.",
@@ -603,7 +603,7 @@
     "Convert & swap": "Convertir et échanger",
     "Swap": "Swap",
     "Swapping Token": "Échange du token",
-    "Swapping {{amountA}} {{symbolA}} to {{amountB}} {{symbolB}}": "Echanger {{amountA}} {{symbolA}} contre {{amountB}} {{symbolB}}",
+    "Swapping {{amountA}} {{symbolA}} to {{amountB}} {{symbolB}}": "Échanger {{amountA}} {{symbolA}} contre {{amountB}} {{symbolB}}",
     "Slippage tolerance": "Tolérance de slippage",
     "Estimated to receive": "Estimé à recevoir"
   },
@@ -616,7 +616,7 @@
     "SWAP": "SWAP",
     "SWAPPING": "ÉCHANGE EN COURS",
     "Swapping Token": "Échange du token",
-    "Swapping {{amountA}} {{symbolA}} to {{amountB}} {{symbolB}}": "Echanger {{amountA}} {{symboleA}} contre {{amountB}} {{symboleB}}",
+    "Swapping {{amountA}} {{symbolA}} to {{amountB}} {{symbolB}}": "Échanger {{amountA}} {{symboleA}} contre {{amountB}} {{symboleB}}",
     "{{tokenA}} price per {{tokenB}}": "Prix en {{tokenA}} par {{tokenB}}",
     "{{token}} balance": "{{token}} solde",
     "CONFIRM SWAP": "VALIDER L'ÉCHANGE",
