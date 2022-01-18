@@ -158,7 +158,7 @@
     "DeFiChain is a community-driven and open project.": "DeFiChain est un projet communautaire et ouvert à tous.",
     "The DeFiChain Foundation does not provide direct support.": "La Fondation DeFiChain ne fournit pas de soutien direct.",
     "Report an issue on Github": "Signaler un problème sur Github",
-    "Frequently Asked Questions": "Questions fréquentes",
+    "Frequently Asked Questions": "Foire aux questions",
     "Announcements": "Annonces",
     "Official Website": "Site officiel"
   },
@@ -255,7 +255,7 @@
   "components/AuctionsFaq": {
     "Auctions FAQ": "FAQ - Enchères",
     "Auctions": "Enchères",
-    "FREQUENTLY ASKED QUESTIONS": "QUESTIONS FRÉQUENTES",
+    "FREQUENTLY ASKED QUESTIONS": "FOIRE AUX QUESTIONS",
     "Auction is an activity where users bid on the collateral in liquidated vaults to recover the vaults' outstanding loans. Liquidation occurs when a vault's collateralization ratio falls below its minimum requirement, upon which the vault collateral will be split into batches of $10,000 USD for auction.": "La vente aux enchères est une activité au cours de laquelle les utilisateurs placent des offres sur les garanties des Vaults liquidés afin de récupérer les prêts en cours des Vaults. La liquidation a lieu lorsque le ratio de garantie d'un Vault tombe en dessous de son exigence minimale. Les garanties du Vaults sont alors divisées en lots de 10 000 USD pour être vendues aux enchères.",
     "How is the minimum starting bid determined?": "Comment l'offre de départ minimale est-elle déterminée ?",
     "The minimum starting bid is 105% of the batch's outstanding loan value. The additional 5% is included to cover the liquidation penalty, which is incurred upon vault liquidation.": "L'offre de minimale départ est de 105% de la valeur du prêt en cours du lot. Les 5% supplémentaires sont inclus pour couvrir la pénalité de liquidation, qui est encourue lors de la liquidation du Vault.",
@@ -542,12 +542,12 @@
     "CONTINUE": "SUIVANT"
   },
   "screens/SlippageTolerance": {
-    "Slippage tolerance": "Tolérance de Slippage",
+    "Slippage tolerance": "Tolérance de Glissement",
     "Slippages are rate changes that occur within an order transaction. Choose how much of this slippage are you willing to accept.": "Le slippage est une différence de cours qui se produit lors d'une transaction sur un DEX. Choisissez le pourcentage de slippage que vous êtes prêt à accepter.",
     "Custom": "Personnaliser",
-    "USE THIS SLIPPAGE TOLERANCE": "CHOISIR CETTE TOLÉRANCE DE SLIPPAGE.",
+    "USE THIS SLIPPAGE TOLERANCE": "CHOISIR CETTE TOLÉRANCE DE GLISSEMENT.",
     "Required field is missing": "Champ requis manquant",
-    "Slippage rate must range from 0-100%": "Le taux de slippage doit être compris entre 0 et 100 %.",
+    "Slippage rate must range from 0-100%": "Le taux de glissement doit être compris entre 0 et 100 %.",
     "Proceed at your own risk": "Procédez à vos propres risques"
   },
   "screens/PoolSwapScreen": {
@@ -586,7 +586,7 @@
     "{{token}} tokens converted": "{{token}} tokens convertis",
     "Select token": "Sélectionner le token",
     "UTXO to be converted": "UTXO à convertir",
-    "Slippage tolerance": "Tolérance de slippage",
+    "Slippage tolerance": "Tolérance de glissement",
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "PRICE DETAILS": "DÉTAILS DU PRIX",
     "FROM": "DES",
@@ -604,16 +604,16 @@
     "Swap": "Swap",
     "Swapping Token": "Échange du token",
     "Swapping {{amountA}} {{symbolA}} to {{amountB}} {{symbolB}}": "Échanger {{amountA}} {{symbolA}} contre {{amountB}} {{symbolB}}",
-    "Slippage tolerance": "Tolérance de slippage",
+    "Slippage tolerance": "Tolérance de glissement",
     "Estimated to receive": "Estimé à recevoir"
   },
   "screens/PoolSwapConfirmScreen": {
     "You are swapping": "Vous échangez",
     "ESTIMATED BALANCE AFTER SWAP": "SOLDE ESTIMÉ APRÈS L'ÉCHANGE",
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
-    "Slippage tolerance": "Tolérance de slippage",
+    "Slippage tolerance": "Tolérance de glissement",
     "Estimated fee": "Frais estimés",
-    "SWAP": "SWAP",
+    "SWAP": "ÉCHANGER",
     "SWAPPING": "ÉCHANGE EN COURS",
     "Swapping Token": "Échange du token",
     "Swapping {{amountA}} {{symbolA}} to {{amountB}} {{symbolB}}": "Échanger {{amountA}} {{symboleA}} contre {{amountB}} {{symboleB}}",
@@ -666,16 +666,16 @@
     "Storing it in digital networks could make it accessible to hackers. It is best to write it in paper and to keep it secure and private.": "Le stockage sur des réseaux numériques pourrait les rendre accessibles aux pirates. Il est préférable de les rédiger sur papier et de les conserver en toute sécurité et confidentialité.",
     "Recovery words": "Mots de récupération",
     "Your unique 24 recovery words is a human-readable representation of your wallet private key, generated from a list of 2048 words in the BIP-39 standard. It prevents any attempts on brute-hacking your wallet’s security.": "Vos 24 mots de récupération uniques sont une représentation lisible par l'homme de la clé privée de votre portefeuille, générée à partir d'une liste de 2048 mots de la norme BIP-39. Cela empêche toute tentative de piratage par force brute de la sécurité de votre portefeuille.",
-    "FREQUENTLY ASKED QUESTIONS": "QUESTIONS FRÉQUENTES"
+    "FREQUENTLY ASKED QUESTIONS": "FOIRE AUX QUESTIONS"
   },
   "components/DexFaq" : {
     "Decentralized Exchange": "Échange décentralisé",
     "The decentralized exchange function will allow users of DeFiChain to swap cryptocurrencies in a peer-to-peer fashion. The decentralized exchange function matches people for trading directly, without the need to buy and sell currency through an exchange.": "La fonction d'échanges décentralisés permettra aux utilisateurs de la DeFiChain d'échanger des crypto-monnaies de pair-à-pair (peer-to-peer). Cette fonction permet de mettre en relation directe des personnes lors d’un échange, sans avoir besoin d'acheter et de vendre des monnaies par l'intermédiaire d'une bourse (via carnet d’ordres).",
     "Transaction fees": "Frais de transaction",
     "Each transaction will be subject to a small amount of fees. The amount may vary depending on the network's congestion.": "Des frais d’un faible montant seront appliqués à chaque transaction. Ce montant peut varier en fonction de l'encombrement du réseau.",
-    "What is slippage tolerance?": "Qu'est-ce que la tolérance de slippage ?",
-    "Due to the dynamic nature of the blockchain, prices on the DEX change every block. \n\nThis results in slippage, which is the difference between the final transaction price and the price displayed on the app before transaction confirmation. \n\nThe slippage tolerance feature allows you to indicate the maximum slippage you are willing to accept in a transaction. \n\nIf the slippage for your transaction is higher than your slippage tolerance, the transaction will not be completed and the original amount will be returned to your wallet.": "En raison de la nature dynamique de la blockchain, les prix sur le DEX changent à chaque bloc. \n\nIl en résulte un slippage, qui correspond à la différence entre le prix final de la transaction et le prix affiché sur l'application avant la confirmation de la transaction. \n\nLa fonction de tolérance au slippage vous permet d'indiquer le slippage maximum que vous êtes prêt à accepter lors d’une transaction. \n\nSi le slippage de la transaction est supérieur à celui de votre tolérance, la transaction ne sera pas effectuée et le montant initial sera retourné directement sur votre portefeuille.",
-    "FREQUENTLY ASKED QUESTIONS": "QUESTIONS FRÉQUENTES"
+    "What is slippage tolerance?": "Qu'est-ce que la tolérance de glissement ?",
+    "Due to the dynamic nature of the blockchain, prices on the DEX change every block. \n\nThis results in slippage, which is the difference between the final transaction price and the price displayed on the app before transaction confirmation. \n\nThe slippage tolerance feature allows you to indicate the maximum slippage you are willing to accept in a transaction. \n\nIf the slippage for your transaction is higher than your slippage tolerance, the transaction will not be completed and the original amount will be returned to your wallet.": "En raison de la nature dynamique de la blockchain, les prix sur le DEX changent à chaque bloc. \n\nIl en résulte un glissement, qui correspond à la différence entre le prix final de la transaction et le prix affiché sur l'application avant la confirmation de la transaction. \n\nLa fonction de tolérance au glissement vous permet d'indiquer le slippage maximum que vous êtes prêt à accepter lors d’une transaction. \n\nSi le glissement de la transaction est supérieur à celui de votre tolérance, la transaction ne sera pas effectuée et le montant initial sera retourné directement sur votre portefeuille.",
+    "FREQUENTLY ASKED QUESTIONS": "FOIRE AUX QUESTIONS"
   },
   "components/LiquidityMiningFaq" : {
     "Liquidity Mining":"Liquidity Mining",
@@ -690,7 +690,7 @@
     "Liquidity tokens can only be sent to another DFI wallet address, and not to an exchange of central entity.":"Les tokens de liquidité ne peuvent être envoyés que vers une autre adresse de portefeuille DFI, et non vers un échange ou une entité centrale.",
     "How do I receive tokens on my DFI wallet?":"Comment puis-je recevoir des tokens sur mon portefeuille DFI ?",
     "You can receive DFI tokens into your wallet by sharing your address found in the Receive page, or by getting the sender to scan the QR code. \n\nNote that you will not be able to receive native tokens (e.g. BTC, ETH) directly into your wallet.":"Vous pouvez recevoir des tokens DFI dans votre portefeuille en partageant votre adresse trouvée dans l'écran Recevoir, ou en demandant à l'expéditeur de scanner le code QR. \n\nNotez que vous ne serez pas en mesure de recevoir des tokens natifs (par exemple BTC, ETH) directement dans votre portefeuille.",
-    "FREQUENTLY ASKED QUESTIONS": "QUESTIONS FRÉQUENTES"
+    "FREQUENTLY ASKED QUESTIONS": "FOIRE AUX QUESTIONS
   },
   "components/PasscodeFaq": {
     "Passcode": "Code de passe",
@@ -701,7 +701,7 @@
     "Yes, you can change your passcode from your settings in-app. We recommend changing of passcode regularly for maximum security.": "Oui, vous pouvez modifier votre code de passe à partir de vos paramètres dans l'appli. Nous vous recommandons de changer votre code de passe régulièrement pour une sécurité maximale.",
     "Is passcode the same as phone PIN code?": "Mon code de passe est-il le même que le code PIN du téléphone ?",
     "Your passcode is valid only for DeFiChain wallet.": "Votre code de passe n'est valable que pour le portefeuille DeFiChain.",
-    "FREQUENTLY ASKED QUESTIONS": "QUESTIONS FRÉQUENTES"
+    "FREQUENTLY ASKED QUESTIONS": "FOIRE AUX QUESTIONS"
   },
   "components/DFIBalanceCard": {
     "Learn more about UTXO and Token": "En savoir plus sur UTXO et Token"
