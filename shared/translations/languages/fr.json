@@ -21,7 +21,7 @@
     "ADD LIQUIDITY": "AJOUTER LIQUIDITÉ",
     "Add liquidity": "Ajout de liquidité",
     "Add Liquidity": "Ajout de liquidité",
-    "Confirm Add Liquidity": "Confirmer ajout de liquidité",
+    "Confirm Add Liquidity": "Confirmer l'ajout de liquidité",
     "Remove Liquidity": "Retirer liquidité",
     "Confirm Removal": "Valider le retrait",
     "Confirm swap": "Valider l'échange",
@@ -29,7 +29,7 @@
     "Pooled {{symbol}}": "{{symbol}} du pool",
     "Total pooled {{symbol}}": "Total {{symbol}} du pool",
     "Your pooled {{symbol}}": "Mes {{symbol}} du pool ",
-    "SWAP TOKENS": "ÉCHANGE DE TOKENS",
+    "SWAP TOKENS": "ÉCHANGER DES TOKENS",
     "REMOVE": "RETIRER",
     "APR": "TAEG",
     "ADD MORE": "AJOUTER",
@@ -39,7 +39,7 @@
     "Browse pool pairs": "Parcourir les paires de pools",
     "Your pool pairs": "Mes paires de pools",
     "Total Value Locked (USD)": "Valeur totale bloquée -TVL (USD)",
-    "SWAP": "ÉCHANGE",
+    "SWAP": "ÉCHANGER",
     "Swap tokens": "Échange de tokens"
   },
   "screens/DexGuidelines": {
@@ -62,7 +62,7 @@
     "Show balances": "Montrer les soldes",
     "Hide balances": "Cacher les soldes",
     "You do not have any other tokens.": "Vous n'avez pas d'autres tokens." 
-    "SWITCH": "ÉCHANGER"
+    "SWITCH": "CHANGER"
   },
   "screens/AddressControlScreen": {
     "CREATE WALLET ADDRESS": "CRÉER UNE ADRESSE DE PORTEFEUILLE",
@@ -120,7 +120,7 @@
   },
   "screens/ConvertScreen": {
     "Convert DFI": "Convertir DFI",
-    "Scan recipient QR": "Scanner le QR code du destinataireR",
+    "Scan recipient QR": "Scanner le QR code du destinataire",
     "Balance": "Balance",
     "CONVERT {{symbol}}": "CONVERTIR {{symbol}}",
     "TO {{symbol}}": "EN {{symbol}}",
@@ -164,11 +164,11 @@
   },
   "screens/Settings": {
     "Recovery Words": "Mots de récupération",
-    "Are you sure you want to unlink your wallet?": "Êtes-vous sûr de vouloir déconnecter votre portefeuille ?",
+    "Are you sure you want to unlink your wallet?": "Êtes-vous sûr de vouloir dissocier votre portefeuille ?",
     "You will need to use your recovery words the next time you want to get back to your wallet.": "Vous devrez utiliser vos mots de récupération la prochaine fois que vous voudrez accéder à votre portefeuille.",
     "Cancel": "Annuler",
-    "Unlink Wallet": "Déconnecter le portefeuille",
-    "UNLINK WALLET": "DÉCONNECTER LE PORTEFEUILLE",
+    "Unlink Wallet": "Dissocier le portefeuille",
+    "UNLINK WALLET": "DISSOCIER LE PORTEFEUILLE",
     "Change Passcode": "Modifier le code de passe",
     "About": "A propos de l'appli",
     "NETWORK": "RÈSEAU",
@@ -226,7 +226,7 @@
   "components/LoansFaq": {
     "Loans FAQ": "FAQ - Prêts",
     "Decentralized Loans": "Prêts décentralisés",
-    "FREQUENTLY ASKED QUESTIONS": "QUESTIONS FRÉQUENTES",
+    "FREQUENTLY ASKED QUESTIONS": "FOIRE AUX QUESTIONS",
     "The decentralized loan feature allows you to borrow decentralised tokens by using your cryptocurrency holdings as collateral. To start, you must first create a vault and deposit collaterals before you can take a loan.": "La fonction de prêt décentralisé vous permet d'emprunter des tokens décentralisés en utilisant vos crypto-monnaies comme garantie. Pour commencer, vous devez d'abord créer un Vault et y déposer des garanties avant de pouvoir contracter un prêt.",
     "How is the collateralization ratio calculated?": "Comment le ratio de garantie est-il calculé ?",
     "The collateralization ratio is calculated by taking the total collateral value deposited in a vault; divided by the amount of loan taken plus total interest, expressed in percentage.": "Le ratio de garantie est calculé en prenant la valeur totale de la garantie déposée dans un Vault ; divisée par le montant du prêt contracté majoré du montant des intérêts, exprimé en pourcentage.",
@@ -381,7 +381,7 @@
     "What is word ": "Quel est le mot "
   },
   "screens/RestoreWallet": {
-    "Discard changes?": "Jeter les modifications ?",
+    "Discard changes?": "Annuler les modifications ?",
     "You have unsaved changes. Are you sure to discard them and leave the screen?": "Vous avez des modifications non sauvegardées. Êtes-vous sûr de vouloir les abandonner et quitter l'écran ?",
     "Error": "Erreur",
     "The recovery words you have entered are invalid. Please double check and try again.": "Les mots de récupération que vous avez saisis ne sont pas valides. Veuillez vérifier et réessayer.",
