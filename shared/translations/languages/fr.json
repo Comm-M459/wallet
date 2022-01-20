@@ -25,7 +25,7 @@
     "Remove Liquidity": "Retirer liquidité",
     "Confirm Removal": "Valider le retrait",
     "Confirm swap": "Valider l'échange",
-    "Pick a pool pair below, supply liquidity to power the Decentralized Exchange (DEX), and start earning fees and annual returns of up to 100%. Withdraw at any time.": "Choisissez une paire de pool ci-dessous, fournissez des liquidités pour alimenter l’échange décentralisée (DEX), et commencez à gagner des commissions et des intérêts annuels allant jusqu'à 100%. Retirer possible à tout moment.",
+    "Pick a pool pair below, supply liquidity to power the Decentralized Exchange (DEX), and start earning fees and annual returns of up to 100%. Withdraw at any time.": "Choisissez une paire de pool ci-dessous, fournissez des liquidités pour alimenter l’échange décentralisé (DEX), et commencez à gagner des commissions et des intérêts annuels allant jusqu'à 100%. Retirer possible à tout moment.",
     "Pooled {{symbol}}": "{{symbol}} du pool",
     "Total pooled {{symbol}}": "Total {{symbol}} du pool",
     "Your pooled {{symbol}}": "Mes {{symbol}} du pool ",
@@ -140,7 +140,7 @@
     "AFTER CONVERSION, YOU WILL HAVE": "APRÈS LA CONVERSION, VOUS AUREZ",
     "Estimated fee": "Frais estimés",
     "CONVERT": "CONVERTIR",
-    "CONVERTING": "CONVERTION...",
+    "CONVERTING": "CONVERSION...",
     "Converting DFI": "Conversion de DFI",
     "Converting {{amount}} {{symbolA}} to {{symbolB}}": "Conversion de {{amount}} {{symbolA}} en {{symbolB}}",
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
@@ -171,7 +171,7 @@
     "UNLINK WALLET": "DISSOCIER LE PORTEFEUILLE",
     "Change Passcode": "Modifier le code de passe",
     "About": "A propos de l'appli",
-    "NETWORK": "RÈSEAU",
+    "NETWORK": "RÉSEAU",
     "To update your passcode, we need you to enter your current passcode.": "Pour mettre à jour votre code d'accès, veuillez entrer votre code d'accès actuel.",
     "Verifying passcode...": "Vérification du code d'accès....",
     "Network Switch": "Changer de réseau",
@@ -208,7 +208,7 @@
     "Knowledge base": "Base de connaissances",
     "Common questions and support documents": "Questions courantes et documents d'assistance",
     "Participate with active community": "Prenez part à la communauté active",
-    "Report in Github, discuss in Reddit and Telegram": "Contribuez dans Github, discutez sur dans Reddit et Telegram.",
+    "Report in Github, discuss in Reddit and Telegram": "Contribuez dans Github, discutez sur Reddit et Telegram.",
     "Track transactions, tokens and DEX pairs": "Suivi des transactions, des tokens et des paires du DEX",
     "View official website": "Voir le site officiel",
     "Learn more about the blockchain": "En savoir plus sur la blockchain",
@@ -258,7 +258,7 @@
     "FREQUENTLY ASKED QUESTIONS": "FOIRE AUX QUESTIONS",
     "Auction is an activity where users bid on the collateral in liquidated vaults to recover the vaults' outstanding loans. Liquidation occurs when a vault's collateralization ratio falls below its minimum requirement, upon which the vault collateral will be split into batches of $10,000 USD for auction.": "La vente aux enchères est une activité au cours de laquelle les utilisateurs placent des offres sur les garanties des Vaults liquidés afin de récupérer les prêts en cours des Vaults. La liquidation a lieu lorsque le ratio de garantie d'un Vault tombe en dessous de son exigence minimale. Les garanties du Vaults sont alors divisées en lots de 10 000 USD pour être vendues aux enchères.",
     "How is the minimum starting bid determined?": "Comment l'offre de départ minimale est-elle déterminée ?",
-    "The minimum starting bid is 105% of the batch's outstanding loan value. The additional 5% is included to cover the liquidation penalty, which is incurred upon vault liquidation.": "L'offre de minimale départ est de 105% de la valeur du prêt en cours du lot. Les 5% supplémentaires sont inclus pour couvrir la pénalité de liquidation, qui est encourue lors de la liquidation du Vault.",
+    "The minimum starting bid is 105% of the batch's outstanding loan value. The additional 5% is included to cover the liquidation penalty, which is incurred upon vault liquidation.": "L'offre minimale de départ est de 105% de la valeur du prêt en cours du lot. Les 5% supplémentaires sont inclus pour couvrir la pénalité de liquidation, qui est encourue lors de la liquidation du Vault.",
     "How is the minimum next bid determined?": "Comment l'enchère minimale est-elle déterminée ?",
     "The minimum next bid is 1% above the previous bid price.": "Une surenchère doit être supérieure d'au moins 1 % à l'offre précédente."
   },
@@ -323,7 +323,7 @@
     "Transact, liquidity mine, swap and many more features as a fully-decentralized wallet": "Transférez, minez via des pools de liquidités, échangez et bien plus encore grâce à votre portefeuille entièrement décentralisé.",
     "Earn high yields": "Obtenez des rendements élevés,",
     "of up to 90% with DEX": "jusqu'à 90 %, avec le DEX",
-    "Supply liquidity to BTC, ETH, and many other pool pairs. You can also withdraw anytime!": "Fournissez des liquidité aux pools BTC, ETH, et bien d'autres, sans délai de retrait !"
+    "Supply liquidity to BTC, ETH, and many other pool pairs. You can also withdraw anytime!": "Fournissez des liquidités aux pools BTC, ETH, et bien d'autres, sans délai de retrait !"
   },
   "screens/CreateMnemonicWallet": {
     "Exit screen": "Quitter l'écran",
@@ -543,7 +543,7 @@
   },
   "screens/SlippageTolerance": {
     "Slippage tolerance": "Tolérance de Glissement",
-    "Slippages are rate changes that occur within an order transaction. Choose how much of this slippage are you willing to accept.": "Le slippage est une différence de cours qui se produit lors d'une transaction sur un DEX. Choisissez le pourcentage de slippage que vous êtes prêt à accepter.",
+    "Slippages are rate changes that occur within an order transaction. Choose how much of this slippage are you willing to accept.": "Le glissement est une différence de cours qui se produit lors d'une transaction sur un DEX. Choisissez le pourcentage de slippage que vous êtes prêt à accepter.",
     "Custom": "Personnaliser",
     "USE THIS SLIPPAGE TOLERANCE": "CHOISIR CETTE TOLÉRANCE DE GLISSEMENT.",
     "Required field is missing": "Champ requis manquant",
@@ -855,10 +855,10 @@
     "ACTIVE": "ACTIF",
     "HEALTHY": "SAIN",
     "AT RISK": "CRITIQUE",
-    "HALTED": "INTÉRROMPU",
+    "HALTED": "INTERROMPU",
     "IN LIQUIDATION": "EN LIQUIDATION"
     "EMPTY": "VIDE",
-    "READY": "PARÈ"
+    "READY": "PARÉ"
   },
   "components/EmptyVault": {
     "No vault created": "Aucun Vault créé",
