@@ -1037,10 +1037,10 @@
     "Remaining loan amount": "Montant du prêt restant",
     "Outstanding balance": "Solde restant à payer",
     "Collateralization ratio": "Ratio de garantie",
-    "Min. collateralization ratio": "Ratio de garantie min."
+    "Min. collateralization ratio": "Ratio de garantie min.",
+    "Resulting collateralization": "Garantie correspondante",
     "Excess amount": "Montant excédentaire",
-    "Any excess amount will be returned to your wallet.": "Tout montant excédentaire sera reversé dans votre portefeuille.",
-    "Resulting collateralization":"Garantie correspondante"
+    "Any excess amount will be returned to your wallet.": "Tout montant excédentaire sera reversé dans votre portefeuille."
   },
   "screens/ConfirmPaybackLoanScreen": {
     "CONFIRM PAYMENT": "CONFIRMER LE PAIEMENT",
