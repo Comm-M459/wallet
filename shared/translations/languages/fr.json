@@ -146,7 +146,7 @@
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "Transaction type": "Type de transaction",
     "Convert": "Convertir",
-    "{{token}} to receive": "{{token}} à recevoir",
+    "{{token}} to receive": "{{token}} restants",
     "CONFIRM TRANSACTION": "VALIDEZ LA TRANSACTION"
   },
   "screens/SettingsNavigator": {
