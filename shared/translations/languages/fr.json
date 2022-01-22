@@ -464,7 +464,7 @@
     "{{tokenA}} price per {{tokenB}}": "Prix en {{tokenA}} par {{tokenB}}",
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "Your pooled {{token}}": "Mes {{token}} du pool",
-    "Amount to be converted": "Montant à convertir",
+    "UTXO to be converted": "UTXO à convertir",
     "Authorize transaction in the next screen to convert": "Autoriser la transaction à l'étape suivante",
     "Estimated fee": "Frais estimés",
     "Pooled {{symbol}}": "{{symbol}} du pool"
