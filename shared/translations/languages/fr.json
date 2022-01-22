@@ -114,7 +114,7 @@
     "Sending {{amount}} {{symbol}}": "Envoi de {{amount}} {{symbol}}",
     "CONFIRM TRANSACTION": "CONFIRMER LA TRANSACTION",
     "Convert & send": "Convertir et envoyer"
-    "I acknowledge that sending Liquidity Pool tokens to addresses that are not DeFiChain compatible wallets may result in irreversible loss of funds.": "Je reconnais que l'envoi de tokens du pool de liquidité à des adresses qui ne sont pas des portefeuilles compatibles avec DeFiChain peut entraîner une perte irréversible des fonds."
+    "Send Liquidity Pool tokens only to DeFiChain Wallet addresses. Sending to an exchange or a central entity will result in irreversible loss of funds.": "Envoyez les tokens du pool de liquidité uniquement vers des portefeuilles compatibles avec DeFiChain. Sinon, l'envoi vers d'autres échanges peut entraîner une perte irréversible des fonds."
     "Transaction type": "Type de transaction",
     "Amount to send": "Montant à envoyer"
   },
