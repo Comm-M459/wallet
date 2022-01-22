@@ -565,7 +565,7 @@
     "TRANSACTION DETAILS": "DÉTAILS DE LA TRANSACTION",
     "Estimated fee": "Frais estimés",
     "{{tokenA}} price per {{tokenB}}": "Prix en {{tokenA}} par {{tokenB}}",
-    "Amount to be converted": "Montant à convertir",
+    "UTXO to be converted": "UTXO à convertir",
     "Authorize transaction in the next screen to convert": "Autoriser la transaction à l'étape suivante",
   },
   "screens/CompositeSwapScreen": {
