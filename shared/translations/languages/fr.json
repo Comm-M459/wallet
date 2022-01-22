@@ -90,7 +90,7 @@
     "How much do you want to send?": "Combien voulez-vous envoyer ?",
     "Enter an amount": "Indiquez un montant",
     "Available": "Disponible",
-    "Amount to be converted": "Montant à convertir",
+    "UTXO to be converted": "UTXO à convertir",
     "Authorize transaction in the next screen to convert": "Autorisez la transaction à l'étape suivante pour convertir",
     "Send to other wallet": "Envoyer à un autre portefeuille",
     "Select token": "Sélectionner le token",
