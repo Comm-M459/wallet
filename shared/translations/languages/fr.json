@@ -988,7 +988,7 @@
     "Total loans (USD)": "Total des prêts (USD)",
     "Collateralization ratio": "Ratio de garantie",
     "Min. collateralization ratio": "Ratio de garantie min.",
-    "Vault interest": "Intérêt du Vault"
+    "Vault interest (APR)": "Intérêt du Vault (TAEG)"
   },
   "components/AddOrRemoveCollateralForm": {
     "How much {{symbol}} to add?": "Combien de {symbol}} à ajouter ?",
