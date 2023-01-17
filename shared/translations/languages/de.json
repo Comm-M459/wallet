@@ -729,7 +729,10 @@
     "Feature is still in Beta. Use at your own risk.": "Diese Funktionalität ist noch im Beta-Stadium. Verwendung auf eigene Gefahr.",
     "Allows the usage of custom server provider url": "Ermöglicht die Verwendung einer benutzerdefinierten Server-Provider-URL",
     "Unloop DUSD loan": "DUSD-Darlehen auflösen",
-    "Display payback DUSD loan with DUSD collateral": "Rückzahlungen von DUSD-Darlehen mit DUSD-Sicherheiten anzeigen"
+    "Display payback DUSD loan with DUSD collateral": "Rückzahlungen von DUSD-Darlehen mit DUSD-Sicherheiten anzeigen",
+    "CFP/DFIP proposal(s)": "CFP/DFIP-Anträge",
+    "Allows the submission of CFP/DFIP proposals": "Ermöglicht die Einreichung von CFP/DFIP-Anträgen",
+    "Upon activation, you will be able to submit CFP/DFIP proposals directly using your active mobile Light Wallet account. Do you want to continue?": "Nach der Aktivierung kannst du CFP/DFIP-Anträge direkt über den aktiven Account deiner mobilen Lightwallet einreichen. Möchtest du fortfahren?"
   },
   "BottomTabNavigator": {
     "Balances": "Guthaben",
@@ -2236,8 +2239,8 @@
     "Continue": "Weiter",
     "CYCLE(S)": "ZYKLEN",
     "Voting Cycle(s)": "Abstimmungs-Zyklen",
-    "Cycle(s) should be 1-100 only": "Die Zahl der Zyclen sollte nur 1-100 sein",
-    "Scan Github URL": "Scan Github URL",
+    "Cycle(s) should be 1-100 only": "Die Zahl der Zyklen sollte nur 1-100 sein",
+    "Scan Github URL": "Github URL prüfen",
     "GITHUB DISCUSSION": "GITHUB-DISKUSSION",
     "Paste URL": "URL einfügen",
     "Verified": "Verifiziert",
