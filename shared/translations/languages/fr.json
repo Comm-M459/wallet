@@ -720,8 +720,7 @@
     "Key in the 24 recovery words to regain access to your wallet.": "Donner les 24 mots de récupération pour retrouver l'accès à votre portefeuille."
   },
   "screens/ErrorBoundary": {
-    "We ran into an issue": "Nous avons rencontré un problème
-",
+    "We ran into an issue": "Nous avons rencontré un problème",
     "There seems to be an issue. Try restarting the application.": "Il semble y avoir un problème. Essayez de redémarrer l'application."
   },
   "screens/ConnectionBoundary": {
@@ -742,7 +741,10 @@
     "Feature is still in Beta. Use at your own risk.": "Cette fonction est encore en version bêta. Utilisez-la à vos risques et périls.",
     "Allows the usage of custom server provider url": "Permet l'utilisation d'une url d'un fournisseur de serveur personnalisée.",
     "Unloop DUSD loan": "Débloquer le prêt DUSD",
-    "Display payback DUSD loan with DUSD collateral": "Afficher le remboursement du prêt DUSD avec garantie DUSD"
+    "Display payback DUSD loan with DUSD collateral": "Afficher le remboursement du prêt DUSD avec garantie DUSD",
+    "CFP/DFIP proposal(s)": "Proposition(s) CFP/DFIP",
+    "Allows the submission of CFP/DFIP proposals": "Permet la soumission de propositions CFP/DFIP",
+    "Upon activation, you will be able to submit CFP/DFIP proposals directly using your active mobile Light Wallet account. Do you want to continue?": "Dès l'activation, vous pourrez soumettre des propositions CFP/DFIP directement en utilisant votre compte actif du portefeuille léger mobile. Continuer ?"
   },
   "BottomTabNavigator": {
     "Balances": "Soldes",
@@ -2252,13 +2254,14 @@
     "CYCLE(S)": "CYCLE(S)",
     "Voting Cycle(s)": "Cycle(s) de vote",
     "Cycle(s) should be 1-100 only": "Le(s) cycle(s) devrait(ent) être de 1 à 100 uniquement",
-    "Scan Github URL": "Scan Github URL",
+    "Scan Github URL": "Scanner l'URL de Github",
     "GITHUB DISCUSSION": "DISCUSSION GITHUB",
     "Paste URL": "Coller l'URL",
     "Verified": "Vérifié",
     "URL should be a valid Github URL": "L'URL doit être une URL Github valide",
     "Add URL here to get started": "Ajouter l'URL ici pour commencer",
-    "Cycle(s) determine the duration for which a proposal can accept votes. Each voting cycle lasts ~260,000 blocks, or approximately 90 days.": "Le(s) cycle(s) détermine(nt) la durée pendant laquelle une proposition peut accepter des votes. Chaque cycle de vote dure ~260 000 blocs, soit environ 90 jours."
+    "Cycle(s) determine the duration for which a proposal can accept votes.": "Le(s) cycle(s) détermine(nt) la durée pendant laquelle une proposition peut accepter des votes.",
+    "Title exceeds max character limit of 128.": "Le titre dépasse la limite maximale de 128 caractères."
   },
   "screens/OCGConfirmScreen": {
     "Confirm": "Confirmer",
